@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fcba03;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #03bafc;
+  font-weight: 600;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 220px;
+  width: 220px;
+  border-radius: 20%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: #03fc03;
+}
+
+/* Responsiveness */
+@media ((min-width: 992px) and (max-width: 1200px)) {
+
+  .btn-container {
+    margin-top: 3rem;
+  }
+
+
+  .btn {
+    height: 160px;
+    width: 160px;
+    border-radius: 20%;
+    margin: 1.5rem;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .btn-container {
+    margin-top: 3rem;
+  }
+
+  .btn {
+    height: 160px;
+    width: 160px;
+    border-radius: 20%;
+    margin: 1.5rem;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn-container {
+    margin-top: 3rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    margin: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #fcba03;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    color: #03bafc;
+    margin-top: 2rem;
+  }
+}
+
+@media (width <= 353px) {
+  .btn-container {
+    margin-top: 3rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    height: 90px;
+    width: 90px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 1rem;
+  }
+
+  h1 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fcba03;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
